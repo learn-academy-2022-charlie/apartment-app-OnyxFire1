@@ -14,7 +14,7 @@ class Header extends Component {
     console.log("current_user:", current_user)
     return (
       <>
-        <h1>IF YOU LIVED HERE, YOU WOULD BE HOME BY NOW</h1>
+        <h1>IF YOU LIVED HERE, YOU WOULD BE HOME BY NOW!</h1>
         <Nav>
           {logged_in &&
             <NavItem>
