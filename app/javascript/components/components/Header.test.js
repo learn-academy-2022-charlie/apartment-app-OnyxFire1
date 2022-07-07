@@ -18,5 +18,6 @@ describe("When Header renders", () => {
     const header = shallow(<Header />)
     const headerHeading = header.find("h1")
     expect(headerHeading.text()).toEqual("IF YOU LIVED HERE, YOU WOULD BE HOME BY NOW!")
+
   })
 })
